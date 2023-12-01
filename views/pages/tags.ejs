@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../components/head'); %>
+</head>
+<body class="container">
+
+<header>
+    <%- include('../components/header'); %>
+</header>
+<main>
+    <h1>Tags</h1>
+    <% tag.forEach(function(tagItem) { %>
+        <h4> Habilidad:  <%= tagItem.name %></h4>
+    <% }); %>
+
+</main>
+<footer>
+    <%- include('../components/footer'); %>
+</footer>
+
+</body>
+</html>
