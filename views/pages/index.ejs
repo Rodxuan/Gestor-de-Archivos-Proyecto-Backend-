@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../components/head'); %>
+</head>
+<body class="container">
+
+<header>
+    <%- include('../components/header'); %>
+</header>
+
+<main>
+    <h1>Comentarios</h1>
+    <% comentario.forEach(function(comentarioItem) { %>
+        <h4><%= comentarioItem.text %></h4>
+    <% }); %>
+
+</main>
+
+<footer>
+    <%- include('../components/footer'); %>
+</footer>
+
+</body>
+</html>
