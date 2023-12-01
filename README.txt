@@ -5,6 +5,12 @@
   - Luisiana Carreño
   - Chrisbel Briceño
 
+#Rutas de las vistas ejemplos:
+-http://localhost:8080/api/tag/all
+-http://localhost:8080/api/comentario/all
+
+
+
 # Profesor
 
   - Prof. Ing. Roberto di michele
